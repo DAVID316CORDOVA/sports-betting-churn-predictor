@@ -81,17 +81,3 @@ WHERE run_date = CURRENT_DATE AND churn_score > 0.85
 ORDER BY churn_score DESC;
 ```
 
-## Limitations
-
-1. Weekly frequency (could benefit from daily)
-2. Churn base varies 57-76% (hard to predict exactly)
-3. No real-time features (only historical)
-4. Manual validation required
-
-## Next Steps
-
-- Redshift integration for daily predictions
-- Real-time feature engineering
-- A/B testing contact effectiveness
-- Cross-product churn patterns (AADD vs Gaming vs Sports)
-
