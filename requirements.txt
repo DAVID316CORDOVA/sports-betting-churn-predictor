@@ -1,0 +1,7 @@
+# churn_aadd - Dependencies
+lightgbm,scikit-learn,pandas,boto3
+pandas==2.1.4
+numpy==1.24.3
+boto3==1.34.15
+pytest==7.4.3
+
